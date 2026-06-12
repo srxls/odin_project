@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def substrings(str, dictionary)
   res = Hash.new(0)
 
