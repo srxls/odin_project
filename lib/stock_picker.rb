@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def stock_picker(prices)
   best_profit = 0
   best_days = [0, 1]
