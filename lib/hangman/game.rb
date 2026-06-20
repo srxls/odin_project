@@ -10,7 +10,7 @@ class Game
       print "Enter a letter to guess: "
       letter = gets.chomp.downcase
 
-      unless letter.length != 1 || !letter.match?(/[a-z]/)
+      if letter.length != 1 || !letter.match?(/[a-z]/)
         puts "Invalid input. Please enter a single letter."
         next
       end
